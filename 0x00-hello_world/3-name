@@ -1,2 +1,3 @@
 #!/bin/bash
-gcc -c $cisfun 
+gcc -c cisfun $CFILE
+ 
