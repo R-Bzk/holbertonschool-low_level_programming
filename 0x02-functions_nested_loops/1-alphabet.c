@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- *main - putchar 
+ *main - putchar
  *
  * return 0 ( succes )
  */
