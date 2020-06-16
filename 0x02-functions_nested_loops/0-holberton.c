@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- *main - display holberton
+ * main- display holberton
  *
- * Return : 0
+ * Return: 0
  */
 int main(void)
 {
