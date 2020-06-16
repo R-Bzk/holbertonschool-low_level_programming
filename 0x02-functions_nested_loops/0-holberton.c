@@ -1,29 +1,20 @@
 #include "holberton.h"
 /**
- *main - putchar 
+ *main - putchar
  *
  * Return : 0 ( succes )
  */
-int main (void)
+int main(void)
 {
-char a ='H';
-char b='o';
-char c='l';
-char d='b';
-char e='e';
-char f='r';
-char g='t';
-char h='o';
-char i='n';
-putchar(a);
-putchar(b);
-putchar(c);
-putchar(d);
-putchar(e);
-putchar(f);
-putchar(g);
-putchar(h);
-putchar(i);
-putchar('\n');
-return(0);
+	_putchar('H');
+	_putchar('o');
+	_putchar('l');
+	_putchar('b');
+	_putchar('e');
+	_putchar('r');
+	_putchar('t');
+	_putchar('o');
+	_putchar('n');
+	_putchar('\n');
+	return (0);
 }
