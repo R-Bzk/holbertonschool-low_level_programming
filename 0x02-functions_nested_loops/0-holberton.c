@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
- *main - putchar
+ *main - print holberton
  *
- * Return : 0 ( succes )
+ * Return : 0
  */
 int main(void)
 {
