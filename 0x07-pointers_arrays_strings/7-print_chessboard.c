@@ -1,24 +1,18 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- *print_chessboard - 0
- *@a: double table
- * i: int
- * y: int
+ * print_chessboard - azeazeazeazeaz
+ *@a: int
+ * Return: 0
  */
 void print_chessboard(char (*a)[8])
 {
-	int i = 0;
-	int y = 0;
-while (i < 8)
-{
-		y = 0;
-		while (y < 8)
-{
-		       _putchar(a[i][y]);
-			y++;
-}
-		i++;
-		_putchar('\n');
-}
+	int b, c;
+
+	for (b = 0; b < 8; b++)
+	{
+		for (c = 0; c < 8; c++)
+			putchar(a[b][c]);
+		putchar('\n');
+	}
 }
