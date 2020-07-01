@@ -1,9 +1,10 @@
-#include "holberton.h"
+B#include "holberton.h"
 #include <stdio.h>
 /**
  *print_chessboard - 0
  *@a: double table
- *
+ * i: int
+ * y: int
  */
 void print_chessboard(char (*a)[8])
 {
@@ -14,10 +15,10 @@ while (i < 8)
 		y = 0;
 		while (y < 8)
 {
-			putchar(a[i][y]);
+		       _putchar(a[i][y]);
 			y++;
 }
 		i++;
-		putchar('\n');
+		_putchar('\n');
 }
 }
